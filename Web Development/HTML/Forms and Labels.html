@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo on forms and labels</title>
+</head>
+<body>
+
+<form action="http://www.google.com" method="get">
+    <p>Enter email:</p>
+    <input type="email" name="usermail" value="">
+    <input type="submit" name="" value="submit"><br>
+
+    <p>Enter text</p>
+    <input type="text" name="userinput" value="">
+    <input type="submit" name="" value="submit"><br>
+
+</form>
+<p>
+
+<form>
+    <label>
+        Enter text:
+        <input type="text" name="" value="block one">
+    </label>
+
+    <label>
+        Enter more text:
+        <input type="text" name="" value="block two">
+    </label>
+</form>
+</p>
+
+<h1>Using For loop to demonstrate lables </h1>
+
+<form>
+<label for="userinput">Enter input:</label>
+
+<input id = "userinput" type="text" name="" placeholder="text here"><br>
+<p>notice here we have used placeholder attribute instead of value attribute in input tag</p>
+</form>
+
+<p>demo for required attribute</p>
+<form>
+    <input type="text" name="" placeholder="not required" >
+    <input type="text" name="" placeholder="required" required>
+    <input type="submit" name="" value="submit">
+
+</form>
+
+
+</body>
+</html>
