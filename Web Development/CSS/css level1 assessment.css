@@ -1,0 +1,40 @@
+body{
+background-color:#334e8a;
+}
+
+h1{
+border: 1px solid black;
+}
+
+h2{
+color:purple;
+}
+
+textarea{
+border: 2px solid ;
+color: rgb(145, 4, 28)
+}
+
+#textblock{
+border: 5px solid gray;
+width:800px;
+height:400px;
+}
+
+a[href="https://www.google.com/"]{
+color:yellow;
+}
+
+#itemone{
+text-decoration:underline;
+color:purple;
+}
+
+.exit{
+background: maroon;
+border: 4px dashed yellow;
+}
+
+a:visited {
+  color: purple;
+}
