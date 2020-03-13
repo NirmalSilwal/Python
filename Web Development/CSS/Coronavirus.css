@@ -1,0 +1,37 @@
+body{
+background: url(https://www.nejm.org/pb-assets/images/editorial/featuredTopics/coronavirushealthmap_600x400-1583769267147.jpg);
+background-color:#f1f5ed;
+}
+
+h1{
+text-align:center;
+color:#3416f5;
+}
+
+h2{
+text-align:center;
+color:#e90af5;
+}
+
+p{
+color: #ede205;
+text-align:center;
+margin:auto;
+}
+
+.formbtn{
+text-align:center;
+}
+
+#submitbtn{
+text-align:center;
+}
+#fname{
+color:#41d606;
+}
+#lname{
+color:#41d606;
+}
+#mailid{
+color:#41d606;
+}
