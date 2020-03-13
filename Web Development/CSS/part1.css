@@ -1,0 +1,23 @@
+/* this is comment */
+/* basic css format
+
+selected tag{
+property:value;
+}
+
+*/
+h1{
+color: rgb(5, 8, 84, 0.2);
+}
+
+/* google "color picker" */
+h4{
+color: rgb(201, 12, 22);
+}
+li{
+color: green
+}
+
+p{
+color: #eb0998;
+}
