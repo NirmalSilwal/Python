@@ -1,0 +1,32 @@
+/*div{
+color: red;
+}*/
+
+body{
+background: url(https://directlinedev.com/media/services/service/background/background_11.wide.jpeg)
+}
+
+.firstclass{
+color: pink;
+}
+
+.secondclass{
+color: yellow;
+}
+
+#singleid{
+color:maroon;
+text-decoration:underline;
+}
+
+h3 + ul{
+border: 4px dotted purple;
+}
+
+li a{
+color: red;
+}
+li a[href="www.github.com"]{
+color: maroon;
+border: 2px dotted blue;
+}
