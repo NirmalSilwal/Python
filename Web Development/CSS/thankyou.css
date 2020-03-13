@@ -1,0 +1,15 @@
+body{
+background: url(https://www.newshub.co.nz/home/world/2020/01/interactive-map-reveals-coronavirus-reach/_jcr_content/par/image.dynimg.768.q75.jpg/v1580430368321/john-hopkins-coronavirus-map-1120.jpg)
+}
+
+h1,h2,p{
+color:yellow;
+}
+
+h3{
+color:#15c908;
+}
+img{
+border: 5px solid white;
+padding:5px;
+}
