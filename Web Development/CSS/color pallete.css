@@ -1,0 +1,46 @@
+/*table, tr, td{
+border: 3px solid maroon;
+margin:auto;
+padding:10px;
+border-spacing: 20px 0;
+}
+*/
+.art{
+margin:auto;
+}
+
+td{
+background-color:maroon;
+height:300px;
+width: 150px;
+border: 5px solid white;
+
+}
+
+h2{
+  text-align:center;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+p {
+   font-family: 'AvaraBold';
+   font-weight: normal;
+   font-style: normal;
+}
+
+#one{
+background-color:#247BA0;
+}
+#two{
+background-color:#F3FFBD;
+}
+#three{
+background-color:#B2DBBF;
+}
+#four{
+background-color:#A95A3D;
+}
+#five{
+background-color:#22851d;
+}
