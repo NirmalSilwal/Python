@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>interacting with DOM</title>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+
+<h1>Selecting with JQuery</h1>
+<p>You can use $ sign to interact with DOM.</p>
+<div class="selector">
+
+
+<p>My list:</p>
+<ul>
+    <li>this is unordered list</li>
+    <li>this is second list</li>
+    <ol>
+        <li>I am nested list first</li>
+    </ol>
+    <li>last list from outer list</li>
+</ul>
+<h2>Here are some inputs</h2>
+<h2>Later on we will use JQuery to interact with them.</h2>
+<form>
+    <input type="text" name="username" placeholder="your name">
+    <input type="submit" value="submit">
+</form>
+</div>
+<br><br><br>
+</body>
+</html>
+
+
+
+<!--CONSOLE EXPERIMEMTS:-->
+
+<!--$('h1')-->
+<!--jQuery.fn.init(2) [h1, h1, prevObject: jQuery.fn.init(1)]-->
+<!--$('li')-->
+<!--jQuery.fn.init(4) [li, li, li, li, prevObject: jQuery.fn.init(1)]0: li1: li2: li3: lilength: 4prevObject: jQuery.fn.init [document]__proto__: Object(0)-->
+<!--var x = $('h1')-->
+<!--undefined-->
+<!--x-->
+<!--jQuery.fn.init(2) [h1, h1, prevObject: jQuery.fn.init(1)]-->
+<!--x.css('color','red')-->
+<!--jQuery.fn.init(2) [h1, h1, prevObject: jQuery.fn.init(1)]-->
+<!--x.css('background','blue')-->
+<!--jQuery.fn.init(2) [h1, h1, prevObject: jQuery.fn.init(1)]
+
+<!--var newCSS = {'color':'maroon', 'background':'white','border':'3px solid red' }-->
+<!--undefined-->
+<!--newCSS-->
+<!--{color: "maroon", background: "white", border: "3px solid red"}color: "maroon"background: "yellow"border: "3px solid red"__proto__: Object-->
+<!--x.css(newCSS)-->
+<!--jQuery.fn.init(2) [h1, h1, prevObject: jQuery.fn.init(1)]-->
+<!--newCSS-->
+<!--{color: "maroon", background: "yellow", border: "3px solid red"}-->
+<!--x.css(newCSS)-->
+<!--jQuery.fn.init(2) [h1, h1, prevObject: jQuery.fn.init(1)]-->
+
+<!--x.css(newCSS)-->
+<!--jQuery.fn.init(2) [h1, h1, prevObject: jQuery.fn.init(1)]-->
+<!--var listitems = $('li')-->
+<!--undefined-->
+<!--listitems-->
+<!--jQuery.fn.init(4) [li, li, li, li, prevObject: jQuery.fn.init(1)]-->
+<!--listitems.css('color','blue')-->
+<!--jQuery.fn.init(4) [li, li, li, li, prevObject: jQuery.fn.init(1)]-->
+<!--listitems.eq(0)-->
+<!--jQuery.fn.init [li, prevObject: jQuery.fn.init(4)]-->
+<!--listitems.eq(0).css('color','green')-->
+<!--jQuery.fn.init [li, prevObject: jQuery.fn.init(4)]-->
+<!--listitems.eq(2).css('background','red')-->
+<!--jQuery.fn.init [li, prevObject: jQuery.fn.init(4)]-->
+<!--listitems.eq(2).css('background','orange')-->
+<!--jQuery.fn.init [li, prevObject: jQuery.fn.init(4)]-->
+<!--listitems.eq(-1).css('color','red')-->
+<!--jQuery.fn.init [li, prevObject: jQuery.fn.init(4)]-->
+
+
+<!--$('h1').text()-->
+<!--"Selecting with JQuery"-->
+<!--$('h1').text('brand new text')-->
+<!--jQuery.fn.init [h1, prevObject: jQuery.fn.init(1)]-->
+<!--$('h1').text('Brand new text')-->
+<!--jQuery.fn.init [h1, prevObject: jQuery.fn.init(1)]-->
+<!--$('h1').HTML-->
+<!--undefined-->
+<!--$('h1').html()-->
+<!--"Brand new text"-->
+<!--$('h1').html('<em>New emphasised text</em>')-->
+<!--jQuery.fn.init [h1, prevObject: jQuery.fn.init(1)]-->
+
