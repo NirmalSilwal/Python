@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event in DOM</title>
+
+    <style>
+        .turnBlue{
+            color:white;
+            background:blue;
+        }
+        .turnRed{
+            color:white;
+            background:red;
+        }
+    </style>
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+
+<h1>Selecting with JQuery</h1>
+<p>You can use $ sign to interact with DOM.</p>
+<div class="selector">
+
+
+<p>My list:</p>
+<ul>
+    <li>this is unordered list</li>
+    <li>this is second list</li>
+    <ol>
+        <li>I am nested list first</li>
+    </ol>
+    <li>last list from outer list</li>
+</ul>
+<h2>Here are some inputs</h2>
+<h3>Later on we will use JQuery to interact with them.</h3>
+<form>
+    <input type="text" name="username" placeholder="your name">
+    <input type="submit" value="submit">
+</form>
+</div>
+
+<script src="jq_events2.js"></script>
+
+<br><br><br>
+</body>
+</html>
+
