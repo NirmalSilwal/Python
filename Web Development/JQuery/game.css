@@ -1,0 +1,20 @@
+.container h1{
+color: green
+}
+.container h2{
+color: maroon
+}
+
+.container h3{
+color: blue
+}
+
+.board button{
+width:100px;
+height:100px;
+background-color:grey;
+margin:1px;
+border-radius:50%;
+border: 2px solid maroon;
+}
+
