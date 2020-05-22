@@ -1,0 +1,26 @@
+{% extends "exercise_base.html" %}
+
+{% block content %}
+    <div class="jumbotron">
+        <p>Let's check your username</p>
+        {% if report %}
+            <p>Your username passed all checks!</p>
+        {% else %}
+            <ul>
+                {% if not lower %}
+                <li><h3>username should contain at least one lower case character</h3></li>
+                {% endif %}
+
+                {%if not upper %}
+                <li><h3>username should contain at least one upper case character</h3></li>
+                {% endif %}
+
+               {%if not num_end %}
+                <li><h3>last character in username should be digits</h3></li>
+                {% endif %}
+            </ul>
+
+        {% endif %}
+    </div>
+
+{% endblock %}
