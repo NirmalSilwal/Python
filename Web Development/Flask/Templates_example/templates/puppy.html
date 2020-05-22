@@ -1,0 +1,9 @@
+{% extends "base_inheritance.html" %}
+
+{% block tobeinherited %}
+
+    <h2>I have been inherited</h2>
+    <h2>This is the puppy page for: {{name}}</h2>
+<a href="{{ url_for('static',filename='newYork.jpg') }}"><h2>Go to NewYork</h2></a>
+
+{% endblock %}

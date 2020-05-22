@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>control flow example</title>
+</head>
+<body>
+
+
+{% if user_logged_in %}
+    <p><h1>Welcome! you are successfully logged in!</h1></p>
+{% else %}
+    <p><h1>Please login!</h1></p>
+{% endif %}
+
+
+
+<h1>For loop example</h1>
+<ul>
+    {% for item in my_list %}
+
+        <li>{{item}}</li>
+
+    {% endfor %}
+</ul>
+
+    {% if 'OPPO' in phones %}
+        <p>OPPO mobile found</p>
+
+    {% else %}
+        <p>Hmm... OPPO not found!</p>
+
+    {% endif %}
+
+</body>
+</html>
