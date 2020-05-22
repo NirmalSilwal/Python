@@ -1,0 +1,22 @@
+{% extends "exercise_base.html" %}
+
+{% block content %}
+    <div class="jumbotron">
+        <h2>Please provide a username (that meets requirements)</h2><br>
+        <h4>Requirements:</h4>
+        <ul>
+            <li>username should contain at least one lower case character</li>
+            <li>last character in username should be digits</li>
+            <li>username should contain at least one upper case character</li>
+
+        </ul>
+<br>
+        <form action="{{ url_for('report') }}">
+
+        <label for="username">UserName</label>
+        <input type="text" name="uname">
+            <input type="submit" value="Submit Form">
+        </form>
+    </div>
+
+{% endblock %}
