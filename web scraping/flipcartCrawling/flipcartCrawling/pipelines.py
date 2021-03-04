@@ -17,9 +17,6 @@ class FlipcartcrawlingPipeline:
         #using local host
         self.conn = pymongo.MongoClient('localhost', 27017)
 
-        # using mongo atlas, in cloud
-        # self.conn = pymongo.MongoClient('mongodb+srv://Nirmal:root@test1nirmal.tksus.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
-
         # creating database
         db = self.conn['remoteDbNirmal']
 
