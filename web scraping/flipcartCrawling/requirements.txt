@@ -35,7 +35,7 @@ soupsieve==2.2
 Twisted==21.2.0
 twisted-iocpsupport==1.0.1
 ua-parser==0.10.0
-urllib3==1.26.3
+urllib3==1.26.5
 user-agents==2.2.0
 w3lib==1.22.0
 zope.interface==5.2.0
