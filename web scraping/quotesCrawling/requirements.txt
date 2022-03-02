@@ -20,7 +20,7 @@ PyDispatcher==2.0.5
 pymongo==3.11.3
 pyOpenSSL==20.0.1
 queuelib==1.5.0
-Scrapy==2.4.1
+Scrapy==2.6.0
 service-identity==18.1.0
 six==1.15.0
 Twisted==21.2.0
