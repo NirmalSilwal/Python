@@ -26,7 +26,7 @@ pymongo==3.11.3
 pyOpenSSL==20.0.1
 queuelib==1.5.0
 requests==2.25.1
-Scrapy==2.4.1
+Scrapy==2.6.0
 scrapy-proxy-pool==0.1.9
 scrapy-user-agents==0.1.1
 service-identity==18.1.0
